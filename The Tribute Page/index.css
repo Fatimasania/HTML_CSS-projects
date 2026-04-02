@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.main{
-    background-color: #E5E5FD;
+body {
     border: 16px solid #1D1E4C;
+    background-color: #E5E5FD;
     min-height: 100vh;
 }
 
