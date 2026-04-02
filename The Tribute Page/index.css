@@ -18,12 +18,15 @@ body {
 .top_section{
     margin-top: 40px;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;        /* ← automatically wraps on small screens */
+    justify-content: center; /* ← centers when stacked */
     align-items: center;
+    gap: 20px;
 }
 
 #img{
-    width: 250px;
+    /*width: 250px;*/
+    width: clamp(150px, 40vw, 250px);
     border-radius: 45%;
 }
 .heading{
@@ -76,3 +79,54 @@ body {
     margin-bottom: 10px;
     padding-right: 20px;
 }
+/*@media (max-width: 500px) {*/
+/*    body {*/
+/*        border-width: 8px;*/
+/*    }*/
+
+/*    .top_section {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        gap: 15px;*/
+/*    }*/
+
+/*    #img {*/
+/*        width: 180px;*/
+/*    }*/
+
+/*    .heading {*/
+/*        text-align: center;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    #h1 {*/
+/*        font-size: 28px;*/
+/*    }*/
+
+/*    #h3 {*/
+/*        font-size: 20px;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    #h2 {*/
+/*        font-size: 26px;*/
+/*    }*/
+
+/*    #b_h2 {*/
+/*        font-size: 22px;*/
+/*    }*/
+
+/*    #div_p {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .list {*/
+/*        padding-left: 20px;*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .footer_section {*/
+/*        text-align: center;*/
+/*        padding-right: 0;*/
+/*    }*/
+/*}*/
