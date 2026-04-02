@@ -27,7 +27,8 @@ body {
     border-radius: 45%;
 }
 .heading{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 #h1{
     font-size: 45px;
