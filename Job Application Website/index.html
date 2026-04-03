@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Application Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -13,24 +14,65 @@
             <h1>Job Application <span id="web">(web)</span></h1>
         </section>
 
-        <section class="personal-info">
+        <section class="info">
 
-            <div>
                 <label >First Name
-                <input type="text" name="first-name" id="first-name">
+                <input class="name_input" type="text" name="first-name" id="first-name" placeholder="Enter First Name">
                 </label>
 
-                <label>Last Name
-                <input type="text" name="last-name" id="last-name">
+                <label >Last Name
+                <input class="name_input" type="text" name="last-name" id="last-name" placeholder="Enter Last Name">
                 </label>
 
+            <div class="second_row">
+                <label >Email
+                    <input class="name_input" type="email" name="Email" id="Email" placeholder="Enter Email">
+                </label>
+            </div>
+            <div class="second_row">
+                <label >Job Role
+                  <select class="job_role">
+                      <option value="">Select</option>
+                      <option value="Backend Developer">Backend Developer</option>
+                      <option value="Frontend Developer">Frontend Developer</option>
+                      <option value="Fullstack Developer">Fullstack Developer</option>
+                      <option value="Mobile app Developer">Mobile app Developer</option>
+                  </select>
+                </label>
+            </div>
+            <div class="third_row">
+                <label for="txt">Enter Address</label>
+                <textarea id="txt" name="Address" rows="4" cols="50" placeholder="Enter your full address..."></textarea>
+            </div>
+
+            <div class="fourth_row">
+            <label >City
+                <input class="name_input" type="text" name="city" id="city" placeholder="Enter City">
+            </label>
+
+            <label >Pincode
+                <input class="name_input" type="number" name="Pincode" id="Pincode" placeholder="Enter Pincode">
+            </label>
+            </div>
+
+            <div class="fifth_row">
+                <label >Start Date
+                    <input class="name_input" type="date" name="date" id="date">
+                </label>
+
+                <label >Upload your CV
+                    <input class="name_input" type="file" name="cv" id="cv" placeholder="Enter Pincode">
+                </label>
+            </div>
+
+            <div class="btn">
+                <button class="submit">Apply Now</button>
             </div>
 
         </section>
 
     </section> <!--end-->
 </main>
-
 
 </body>
 </html>
