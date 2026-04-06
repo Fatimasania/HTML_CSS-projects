@@ -27,14 +27,14 @@
     font-weight: normal;
 }
 .hello{
-    padding-top: 70px;
+    padding-top: 60px;
 
 }
 .role{
     margin-top: 10px;
 }
 .name{
-    font-size: 30px;
+    font-size: 25px;
 }
 .text-box1, .text-box2{
     background-color: black;
@@ -97,14 +97,27 @@
     flex: 1;   /* takes equal space */
     min-height: 400px;
     color: white;
-}
-.part3_1{
-    background-color: darkolivegreen;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-weight: bold;
+    font-size: 28px;
+
+}
+.about-para, .contact{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 40px;
+    line-height: 1.6;
+
+}
+.part3_1 {
+    background-color: darkolivegreen;
 }
 .part3_2{
     background-color: chocolate;
+}
+.footer_section{
+    font-size: 25px;
 }
