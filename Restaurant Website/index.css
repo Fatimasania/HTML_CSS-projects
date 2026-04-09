@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #fff;
+    padding: 12px 30px 12px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+ .fa-bars{
+     text-align: center;
+     font-size: 20px;
+ }
+ .first-view{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 40px;
+ }
+ .hero-image img{
+     width: 100%;
+     max-width: 500px;
+     height: auto;
+     padding: 20px 20px 30px 50px;
+ }
+ .content-text {
+     display: flex;
+     flex-direction: column;
+     max-width: 400px;
+     justify-content: center;
+     align-items: flex-start;
+     text-align: start;
+
+ }
+ .btn-offer{
+     margin-bottom: 20px;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 10px 14px;
+     background-color: #074507;
+     border-radius: 5px;
+     color: #fff;
+     border: none;
+
+ }
+ .title{
+     margin-bottom: 20px;
+     font-size: 50px;
+ }
+.subtitle{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #ffC066;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: black;
+
+}
+.btn:hover {
+    background-color: #c5ab0a;
+    transform: scale(1.1);
+    color: white;
+}
