@@ -83,3 +83,50 @@
     background-attachment: fixed;
 
 }
+
+@media only screen and (max-width: 992px) {
+    .heading1, .heading2-1, .heading3-1{
+        font-size: 40px;
+    }
+
+    .heading2, .heading2-2, .heading3-2{
+        font-size: 20px;
+    }
+
+    .text1, .text2, .text3{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .heading1, .heading2-1, .heading3-1{
+        font-size: 35px;
+    }
+
+    .heading2, .heading2-2, .heading3-2{
+        font-size: 17px;
+    }
+
+    .text1, .text2, .text3{
+        font-size: 14px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .heading1, .heading2-1, .heading3-1{
+        font-size: 30px;
+    }
+
+    .heading2, .heading2-2, .heading3-2{
+        font-size: 15px;
+    }
+
+    .text1, .text2, .text3{
+        font-size: 12px;
+    }
+}
+
