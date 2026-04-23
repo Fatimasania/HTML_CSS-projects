@@ -150,7 +150,7 @@ main{
 /*------------------------------------------------------*/
 
 .section-three {
-    margin-top: 18rem;
+    margin-top: 17rem;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -159,7 +159,6 @@ main{
     padding: 40px 20px;
     text-align: center;
     font-size: 15px;
-
 
     /*padding: 60px 20px;*/
 }
@@ -185,6 +184,9 @@ main{
     margin-bottom: 50px;
     background-color: #18088f;
 }
+.img2{
+    width: 80%;
+}
 /*------------------------------------------------------*/
 .section-four{
     background-image: url("images/video.png");
@@ -201,8 +203,29 @@ main{
     margin-top: 20px;
     color: white;
     min-height: 80vh;
+    font-size: 15px;
+    padding: 40px 20px;
 
 }
+
+.mh4 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.d4 {
+    font-size: 1em;
+    line-height: 1.7;
+    font-weight: 100;
+    margin-bottom: 30px;
+    max-width: 800px;
+    text-align: justify-all;
+}
+
+
 /*------------------------------------------------------*/
 
 .section-five{
@@ -292,6 +315,71 @@ main{
 
 /*------------------------------------------------------*/
 
+@media only screen and (max-width: 870px) {
+
+    .hero-section{
+        font-size: 13px;
+        padding: 0 40px;
+    }
+    /*------------------------------------------------------*/
+
+    .section-two{
+        padding: 40px 40px;
+        font-size: 13px;
+    }
+    .button{
+        margin-bottom: 30px;
+    }
+
+    .img2 img{
+        width: 60%;
+    }
+
+    /*------------------------------------------------------*/
+
+    .section-three {
+        margin-top: 12rem;
+        padding: 40px 40px;
+        font-size: 13px;
+    }
+    .img2{
+        width: 60%;
+    }
+
+    /*------------------------------------------------------*/
+    .section-four{
+        font-size: 13px;
+        padding: 40px 40px;
+
+    }
+
+    /*------------------------------------------------------*/
+
+    .section-five{
+        font-size: 13px;
+        margin-top: 0;
+
+    }
+
+    .l-content{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        max-width: 350px;
+        padding: 0 20px;
+    }
+
+    .img3{
+        width: 35%;
+    }
+
+    .d5.highlight {
+        font-size: 0.8em;
+    }
+
+}
+
 /*600 ya usse kam*/
 @media only screen and (max-width: 600px) {
     .menu-icon {
@@ -308,5 +396,57 @@ main{
         font-size: 1.6em;
         font-weight: 100;
     }
+
+    /*------------------------------------------------------*/
+
+    .hero-section{
+        font-size: 11px;
+        padding: 0 45px;
+    }
+    /*------------------------------------------------------*/
+
+    .section-two{
+        padding: 40px 45px;
+        font-size: 11px;
+    }
+    .button{
+        margin-bottom: 30px;
+    }
+
+    .img2 img{
+        width: 60%;
+    }
+
+    /*------------------------------------------------------*/
+
+    .section-three {
+        margin-top: 12rem;
+        padding: 40px 45px;
+        font-size: 11px;
+    }
+    .img2{
+        width: 60%;
+    }
+
+    /*------------------------------------------------------*/
+    .section-four{
+        font-size: 11px;
+        padding: 40px 45px;
+
+    }
+
+    /*------------------------------------------------------*/
+
+    .section-five{
+        font-size: 11px;
+        margin-top: 0;
+
+    }
+
+    .img3{
+        width: 35%;
+        margin-bottom: 20px;
+    }
+
 
 }
