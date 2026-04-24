@@ -80,12 +80,12 @@ main{
 }
 .sub-heading{
     font-size: 1.8em;
-    font-weight: 250;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 .description{
     font-size: 1em;
-    font-weight: 150;
+    font-weight: 200;
     line-height: 1.5;
     max-width: 800px;
 
@@ -96,7 +96,7 @@ main{
 .section-two{
     background-color: #1f0149;
     color: white;
-    height: 90vh;
+    height: auto;
     font-size: 15px;
     width: 100%;
 
@@ -125,7 +125,7 @@ main{
     font-weight: 100;
     margin-bottom: 30px;
     max-width: 800px;
-    text-align: justify-all;
+    text-align: center;
 
 }
 .button{
@@ -137,20 +137,20 @@ main{
     font-weight: 100;
     cursor: pointer;
     margin-bottom: 50px;
-    transition: 0.4s ease-in-out;
+    transition: 0.2s ease-in-out;
 
 }
 .button:hover{
     transform: scale(1.1);
+    font-weight: bold;
 }
-.img2 img{
-    width: 70%;
+.img1{
+    width: 60%;
 }
 
 /*------------------------------------------------------*/
 
 .section-three {
-    margin-top: 17rem;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -177,7 +177,7 @@ main{
     font-weight: 100;
     margin-bottom: 30px;
     max-width: 800px;
-    text-align: justify-all;
+    text-align: center;
 }
 
 .b2, .b3 {
@@ -185,7 +185,7 @@ main{
     background-color: #18088f;
 }
 .img2{
-    width: 80%;
+    width: 60%;
 }
 /*------------------------------------------------------*/
 .section-four{
@@ -222,7 +222,7 @@ main{
     font-weight: 100;
     margin-bottom: 30px;
     max-width: 800px;
-    text-align: justify-all;
+    text-align: center;
 }
 
 
@@ -321,35 +321,38 @@ main{
         font-size: 13px;
         padding: 0 40px;
     }
+
+    .img1{
+        width: 80%;
+    }
+
     /*------------------------------------------------------*/
 
     .section-two{
         padding: 40px 40px;
         font-size: 13px;
+
     }
     .button{
         margin-bottom: 30px;
     }
 
-    .img2 img{
-        width: 60%;
+    .img2{
+        width: 70%;
     }
 
     /*------------------------------------------------------*/
 
     .section-three {
-        margin-top: 12rem;
         padding: 40px 40px;
         font-size: 13px;
-    }
-    .img2{
-        width: 60%;
     }
 
     /*------------------------------------------------------*/
     .section-four{
         font-size: 13px;
         padding: 40px 40px;
+        min-height: 50vh;
 
     }
 
@@ -358,7 +361,6 @@ main{
     .section-five{
         font-size: 13px;
         margin-top: 0;
-
     }
 
     .l-content{
@@ -397,56 +399,57 @@ main{
         font-weight: 100;
     }
 
-    /*------------------------------------------------------*/
+/*------------------------------------------------------*/
 
     .hero-section{
-        font-size: 11px;
+        font-size: 12px;
         padding: 0 45px;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center center;
     }
+
     /*------------------------------------------------------*/
 
     .section-two{
         padding: 40px 45px;
-        font-size: 11px;
+        font-size: 12px;
     }
     .button{
         margin-bottom: 30px;
     }
-
-    .img2 img{
-        width: 60%;
+    .img1{
+        width: 90%;
     }
 
     /*------------------------------------------------------*/
 
     .section-three {
-        margin-top: 12rem;
-        padding: 40px 45px;
-        font-size: 11px;
+        /*padding: 40px 45px;*/
+        padding: 0;
+        font-size: 12px;
     }
     .img2{
-        width: 60%;
+        width: 80%;
     }
 
     /*------------------------------------------------------*/
     .section-four{
-        font-size: 11px;
+        font-size: 12px;
         padding: 40px 45px;
+        min-height: 50vh;
 
     }
 
     /*------------------------------------------------------*/
 
     .section-five{
-        font-size: 11px;
-        margin-top: 0;
-
+        font-size: 12px;
+        /*margin-top: 0;*/
     }
-
     .img3{
-        width: 35%;
+        width: 48%;
         margin-bottom: 20px;
     }
-
 
 }
