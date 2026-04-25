@@ -22,6 +22,9 @@ body{
     width: 100%;
     position: fixed;
     top: 0;
+    background: white;
+    z-index: 100;
+    height: 60px;
 }
 
 .N_sec1, .N_sec2, .N_sec3{
@@ -176,3 +179,4 @@ main {
     width: 100%;
     margin-top: 60px;   /* same as navbar height */
 }
+
