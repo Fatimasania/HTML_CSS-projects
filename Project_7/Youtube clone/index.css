@@ -94,10 +94,9 @@ body{
     background: #f3efef;
     display: flex;
     align-items: center;
-    font-weight: 500;
     padding: 8px 12px;
     gap: 6px;
-
+    font-weight: 500;
 }
 
 .fa-bell{
@@ -118,6 +117,22 @@ body{
     cursor: pointer;
 }
 
+.nav_bottom {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    position: fixed;
+    top: 60px;         /* below navbar */
+    left: 200px;       /* beside sidebar */
+    right: 0;
+    background: white;
+    z-index: 99;
+}
+.all{
+    background: #1e1c1c;
+    color: white;
+}
+
 /*---------------------------------------------------*/
 
 .side_bar{
@@ -130,7 +145,7 @@ body{
     padding: 10px;
     overflow-y: hidden;
     position: fixed;
-    margin-top: 50px;
+    margin-top: -10px;
 }
 .side_bar:hover {
     overflow-y: auto;
@@ -155,4 +170,9 @@ body{
     margin: 12px 0;
     width: 100%;
     flex-shrink: 0;    /* ← stops it from shrinking inside flex */
+}
+main {
+    margin-left: 200px; /* same as sidebar width */
+    width: 100%;
+    margin-top: 60px;   /* same as navbar height */
 }
