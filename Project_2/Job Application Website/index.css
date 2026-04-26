@@ -51,6 +51,18 @@ body{
 
 }
 
+.name_input,
+#txt {
+    border: 1px solid #050500;
+    outline: none;
+}
+
+.name_input:focus,
+#txt:focus {
+    border: 1px solid #050500;
+    outline: none;
+}
+
 label{
     font-size: 18px;
 }
@@ -99,7 +111,7 @@ label{
 }
 
 #cv{
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 4px;
     height: 35px;

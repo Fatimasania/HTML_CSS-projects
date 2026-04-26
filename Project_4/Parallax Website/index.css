@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-size: 16px;
+}
 .first-page{
     background-image: url("images/image1.png");
     min-height: 100vh;
@@ -33,7 +35,7 @@
 }
 
 .heading1, .heading2-1, .heading3-1{
-    font-size: 50px;
+    font-size: 3rem;
     letter-spacing: 2px;
     margin-bottom: 6px;
     text-transform: capitalize;
@@ -42,14 +44,14 @@
 }
 
 .heading2, .heading2-2, .heading3-2{
-    font-size: 25px;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     font-style: italic;
 
 }
 
 .text1, .text2, .text3{
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 1.5;
     /*padding: 25px 30px;*/
     text-align: justify;
@@ -59,7 +61,7 @@
 
 .content, .content2, .content3{
     margin: 0;
-    padding: 30px 30px;
+    padding: 30px;
     background-color: #bfbaba;
 }
 
@@ -82,5 +84,36 @@
     background-position: center;
     background-attachment: fixed;
 
+}
+
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 13px;
+    }
+    .main_heading, .main2_heading, .main3_heading{
+        padding: 10px 20px;
+    }
+    .content, .content2, .content3{
+        padding: 20px;
+    }
+    .first-page,
+    .second-page,
+    .third-page {
+        background-attachment: scroll;
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    html{
+        font-size: 11px;
+    }
+    .main_heading, .main2_heading, .main3_heading{
+        padding: 20px 20px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    html{
+        font-size: 10px;
+    }
 }
 
