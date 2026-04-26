@@ -105,7 +105,7 @@ body{
 .fa-bell{
     font-size: 1.3rem;
 }
-.avatar{
+.avatar, .profile_S{
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -185,19 +185,23 @@ body{
 
 .container {
     display: flex;
-    margin-top: 110px; /* navbar 60px + filter bar ~50px */
+    padding-top: 110px; /* navbar 60px + filter bar ~50px */
 }
 
 main {
-    margin-left: 200px;  /* same as sidebar width */
-    margin-top: 0;       /* container handles top margin now */
+    margin-left: 200px;   /* same as sidebar width */
+    margin-top: 0;      /* container handles top margin now */
     width: calc(100% - 200px);
     padding: 20px;
+    max-width: 1400px;
+    margin-right: auto;
+
 }
 
 .card{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    /*grid-template-columns: repeat(3,1fr);*/
     gap: 20px;
     /*padding: 10px;*/
     margin-left: 10px;
@@ -252,3 +256,102 @@ main {
 .card > div:hover {
     background: #e8dfdf;
 }
+
+
+/*-------------------------*/
+
+@media (max-width: 900px) {
+    .create {
+        display: none;
+    }
+    .navbar{
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    .card {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .search {
+        width: 200px;
+    }
+    .side_bar {
+        display: none;
+    }
+    main {
+        margin-left: 0;
+        width: 100%;
+    }
+    .nav_bottom {
+        left: 0;
+    }
+    .navbar{
+        padding: 10px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 13px;
+    }
+    .search{
+        width: 150px;
+    }
+    .fa-bell {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    html {
+        font-size: 12px;
+    }
+    /*.card{*/
+    /*    grid-template-columns: repeat(1, 1fr);*/
+    /*}*/
+    .fa-microphone{
+        display: none !important;
+    }
+    .search {
+        width: 120px;
+    }
+    .logo{
+        width: 6rem;
+    }
+}
+@media (max-width: 480px) {
+    .N_sec1 {
+        gap: 10px;
+    }
+
+    .N_sec3 {
+        gap: 10px;
+    }
+
+    .search {
+        max-width: 140px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    html{
+        font-size: 11px;
+    }
+    .search_box{
+        display: none;
+    }
+    .logo{
+        width: 8rem;
+    }
+    .profile_S{
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+
