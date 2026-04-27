@@ -9,7 +9,7 @@
     min-height:100vh;
     background-repeat:no-repeat;
     background-size: cover;
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-position: center;
 }
 
@@ -27,8 +27,7 @@
     font-weight: normal;
 }
 .hello{
-    padding-top: 60px;
-
+    padding-top: 30px;
 }
 .role{
     margin-top: 10px;
@@ -116,11 +115,11 @@
     margin-top: 40px;
 }
 .part3_1 {
-    background-color: #f1b7b7;
-    border-right: 2px dashed #000000;
+    background-color: #888282;
+    /*border-right: 2px dashed #000000;*/
 }
 .part3_2{
-    background-color: #eae1a7;
+    background-color: #aca58b;
 }
 .footer_section{
     font-size: 20px;
@@ -130,7 +129,7 @@
 
 @media only screen and (max-width: 768px) {
     .hello{
-        padding-top: 160px;
+        padding-top: 60px;
     }
     .hello, .role{
         font-size: 30px;
@@ -194,7 +193,6 @@
     .part3_1,
     .part3_2 {
         width: 100%;
-        border-right: none;       /* remove the divider */
     }
     .footer_section{
         padding: 20px;
