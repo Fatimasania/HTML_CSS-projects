@@ -117,8 +117,8 @@ main ul li {
         overflow: hidden;
         border-bottom: 1px solid #ccc;
     }
-
 }
+
 
 @media (max-width: 425px) {
     html {
