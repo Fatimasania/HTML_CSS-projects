@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 16px;
+    font-size: 17px;
 }
 body {
     display: flex;
@@ -17,6 +17,9 @@ header{
     top: 0;
     height: 100vh;
 
+}
+.title{
+    font-size: 1.8rem;
 }
 nav{
     /*padding: 1rem;*/
@@ -54,8 +57,10 @@ nav li{
 }
 main{
     padding: 2rem 3rem;
-    min-width: 900px;
+    min-width: 0;
+    flex: 1;
     line-height: 1.7;
+    overflow-x: hidden;
 }
 main section {
     margin-bottom: 3rem;
@@ -83,3 +88,42 @@ main ul li {
     line-height: 1.6;
 }
 
+@media (max-width: 1024px) {
+    html{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 14px;
+    }
+    header{
+        min-width: 240px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    html{
+        font-size: 13px;
+    }
+    body{
+        flex-direction: column;
+    }
+    header{
+        min-width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        overflow: hidden;
+        border-bottom: 1px solid #ccc;
+    }
+
+}
+@media (max-width: 425px) {
+    html {
+        font-size: 12px;
+    }
+
+}
