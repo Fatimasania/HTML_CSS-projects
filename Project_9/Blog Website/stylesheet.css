@@ -49,6 +49,10 @@ html{
 .nav-links li:hover {
     transform: scale(1.1);
 }
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /*------------------------------------------------*/
 
@@ -174,6 +178,7 @@ html{
 .btn:hover{
     background-color: #242440;
 }
+
 /*---------------------------------------------------*/
 .ftr{
     font-size: 1rem;
@@ -184,3 +189,39 @@ html{
     padding: 20px 0;
 }
 
+/*----------------------------------------------------*/
+/*                    POST PAGE                       */
+/*----------------------------------------------------*/
+
+.page-one {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 5px;
+}
+.post-meta {
+    font-size: 0.95rem;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.post-text {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.post-text h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.post-text p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
