@@ -70,6 +70,14 @@ main h2{
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #ccc;
 }
+.box{
+    background-color: #9f9b9b;
+    /*height: 100%;*/
+    /*width: 80%;*/
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
 main p{
     font-size: 1.1rem;
     /*color: #333;*/
@@ -102,6 +110,9 @@ main ul li {
 
 }
 
+/*--------------------------------------------------*/
+
+
 @media (max-width: 600px) {
     html{
         font-size: 13px;
@@ -118,8 +129,6 @@ main ul li {
         border-bottom: 1px solid #ccc;
     }
 }
-
-
 @media (max-width: 425px) {
     html {
         font-size: 12px;
