@@ -225,3 +225,83 @@ html{
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+
+/*--------------------------------------------*/
+@media screen and (max-width: 1024px) {
+    .sec4{
+        padding: 30px;
+    }
+    .sec4-text{
+        max-width: 400px;
+    }
+    .sec4-img img{
+        max-width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    /* Navbar */
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    /* Sec1 */
+    .sec1-img img {
+        min-width: unset;   /* removes the 400px min-width */
+        width: 100%;
+        margin-top: 30px;
+    }
+    .sec1-text {
+        min-width: unset;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    /* Sec2 */
+    .sec2-img img {
+        max-width: 100%;
+    }
+    .sec2-text {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Sec4 */
+    .sec4-text {
+        max-width: 100%;
+    }
+    .sec4-img img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Cards */
+    .card {
+        max-width: 100%;
+    }
+
+    .banner-img{
+        max-width: 100%;
+        padding: 20px;
+    }
+}
+
+/* Small phones */
+@media screen and (max-width: 480px) {
+    .nav-links {
+        gap: 15px;
+        font-size: 1.2rem;
+    }
+    .logo {
+        font-size: 1.3rem;
+    }
+    .social-icon {
+        display: none;
+    }
+}
