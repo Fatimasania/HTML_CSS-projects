@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0089B7;
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    font-size: 2rem;
+}
+.nav-links li{
+    transition: 0.3s ease;
+}
+.nav-links li:hover{
+    transform: scale(1.1);
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/*-----------------------------------------------*/
+
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003D62;
+    color: white;
+    padding: 130px 40px 80px;
+    min-height: 100vh;
+
+}
+.image{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20%;
+    padding: 30px;
+}
+.sec1-text{
+    /*max-width: 500px;*/
+}
+.hi{
+    color: #ecd24d;
+    font-size: 2.8rem;
+}
+.name{
+    font-size: 2.5rem;
+}
+.sec1-text h1{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.role{
+    font-size: 3rem;
+}
+
+.typewriter{
+    /*font-family: monospace;*/
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.5rem solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.1rem; /* Adjust as needed */
+    animation:
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange
+    }
+}
+
+/*---------------------------------------------------------*/
+.sec2{
+    background-color: #003251;
+    color: white;
+    padding: 90px 80px;
+
+}
+.sec2-text{
+    display: flex;
+    justify-content: center;
+}
+.sec2 h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
