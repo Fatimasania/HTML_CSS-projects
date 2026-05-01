@@ -116,7 +116,7 @@ body{
 .sec2{
     background-color: #003251;
     color: white;
-    padding: 90px 80px;
+    padding: 80px 70px;
 
 }
 .sec2-text{
@@ -125,6 +125,74 @@ body{
 }
 .sec2 h2{
     font-size: 3rem;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
+.grid-projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-image{
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.grid-text{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.grid-image:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.grid-text:hover{
+    transform: scale(1.05);
+    background-color: #f9f9fa;
+    color: #003D62;
+}
+
+.grid-projects > div {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-image {
+    width: 100%;
+    height: auto;
+}
+
+.grid-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background: white;
+    color: #003D62;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+}
+
+.grid-projects > div:hover .grid-text {
+    transform: translateY(0);
+}
+
+.grid-item{
+    position: relative;
+    overflow: hidden;
+    max-width: 300px;
+
+}
