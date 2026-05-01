@@ -199,3 +199,34 @@ body{
 }
 
 /*--------------------------------------------*/
+
+.sec3{
+    background-color: #003D62;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+
+}
+.sec-title{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.sec4-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+}
+.sec4-contact i{
+    font-size: 1.2rem;
+}
+.icon-with-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
