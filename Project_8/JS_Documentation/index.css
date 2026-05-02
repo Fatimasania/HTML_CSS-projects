@@ -73,7 +73,7 @@ main h2{
 }
 .box{
     background-color: #c3c0c0;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     /*height: 100%;*/
     /*width: 80%;*/
     padding: 10px;
