@@ -11,8 +11,8 @@ body {
     /*background-color: #f4f4f4;*/
 }
 header{
-    border-right: 1px solid #ccc;
-    background-color: #f4f4f4;
+    border-right: 1px solid #000000;
+    background-color: #c3bbbb;
     min-width: 280px;
     position: sticky;
     top: 0;
@@ -50,7 +50,7 @@ nav ul li:hover{
 nav li{
     font-size: 1.3rem;
     margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000000;
     padding: 10px;
 }
 
