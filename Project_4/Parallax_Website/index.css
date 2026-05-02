@@ -26,7 +26,7 @@ html{
     background-color: rgba(49, 53, 52, 0.8);
     border-radius: 10px;
     color: white;
-    padding: 16px 32px;
+    padding: 14px;
 
     display: flex;
     align-items: center;
@@ -53,10 +53,7 @@ html{
 .text1, .text2, .text3{
     font-size: 1rem;
     line-height: 1.5;
-    /*padding: 25px 30px;*/
     text-align: justify;
-
-
 }
 
 .content, .content2, .content3{
@@ -114,6 +111,16 @@ html{
 @media only screen and (max-width: 375px) {
     html{
         font-size: 10px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    html{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    html{
+        font-size: 9px;
     }
 }
 
