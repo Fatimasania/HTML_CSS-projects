@@ -8,10 +8,11 @@ html{
 }
 body {
     display: flex;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
 }
 header{
     border-right: 1px solid #ccc;
+    background-color: #f4f4f4;
     min-width: 280px;
     position: sticky;
     top: 0;
@@ -71,7 +72,8 @@ main h2{
     border-bottom: 2px solid #ccc;
 }
 .box{
-    background-color: #9f9b9b;
+    background-color: #c3c0c0;
+    /*border: 1px solid black;*/
     /*height: 100%;*/
     /*width: 80%;*/
     padding: 10px;
