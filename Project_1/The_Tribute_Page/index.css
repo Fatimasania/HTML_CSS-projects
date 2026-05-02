@@ -19,7 +19,7 @@ body {
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;        /* ← automatically wraps on small screens */
-    justify-content: center; /* ← centers when stacked */
+    justify-content: center;
     align-items: center;
     gap: 50px;
 }
