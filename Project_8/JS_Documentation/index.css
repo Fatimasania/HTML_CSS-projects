@@ -8,11 +8,11 @@ html{
 }
 body {
     display: flex;
-    /*background-color: #f4f4f4;*/
+    background-color: #f4f4f4;
 }
 header{
     border-right: 1px solid #000000;
-    background-color: #c3bbbb;
+    /*background-color: #efefef;*/
     min-width: 280px;
     position: sticky;
     top: 0;
@@ -129,6 +129,11 @@ main ul li {
         border-right: none;
         overflow: hidden;
         border-bottom: 1px solid #ccc;
+        padding: 20px;
+    }
+    .title{
+        font-size: 1.8rem;
+        text-align: center;
     }
 }
 @media (max-width: 425px) {

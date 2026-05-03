@@ -45,7 +45,6 @@ body{
 }
 
 /*-----------------------------------------------*/
-
 .sec1{
     display: flex;
     justify-content: space-around;
@@ -206,11 +205,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 20px;
+    padding: 60px 20px;
 
 }
 .sec-title{
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 40px;
 }
 .sec4-contact{
@@ -241,3 +240,72 @@ footer{
 }
 
 /*----------------------------------------------------*/
+
+@media (max-width: 1024px){
+    html{
+        font-size: 14px;
+    }
+    .grid-projects{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .sec1 {
+        flex-direction: column-reverse;
+    }
+    .sec1-text{
+        margin-bottom:  20px;
+    }
+    /*.image{*/
+    /*    width: 100%;*/
+    /*    max-width: 300px;*/
+
+    /*}*/
+}
+
+@media (max-width: 600px){
+    html{
+        font-size: 13px;
+    }
+    .grid-projects{
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    }
+    .sec2 h2{
+        margin-bottom: 20px;
+    }
+    .sec-title{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 425px){
+    html{
+        font-size: 10px;
+    }
+    .sec1{
+        text-align: center;
+    }
+}
+@media (max-width: 320px){
+
+    .nav-links{
+        gap: 10px;
+    }
+    .hi{
+        font-size: 2.5rem;
+    }
+    .name{
+        font-size: 2.5rem;
+    }
+    .sec1-text h1{
+        font-size: 1.3rem;
+    }
+    .role{
+        font-size: 2rem;
+    }
+}

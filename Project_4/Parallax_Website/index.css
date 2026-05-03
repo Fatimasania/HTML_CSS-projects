@@ -117,10 +117,17 @@ html{
     html{
         font-size: 10px;
     }
+    .main_heading, .main2_heading, .main3_heading{
+        padding: 8px 18px;
+    }
+    .content, .content2, .content3{
+        padding: 17px;
+    }
+
 }
 @media only screen and (max-width: 340px) {
     html{
-        font-size: 9px;
+        font-size: 8px;
     }
 }
 
