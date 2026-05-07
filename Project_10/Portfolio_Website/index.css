@@ -15,14 +15,14 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #0089B7;
+    /*background-color: #0089B7;*/
     color: white;
-
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
+    background: linear-gradient(to left, #0089B7, #003D62);
 }
 .nav-links{
     list-style: none;
@@ -212,6 +212,9 @@ body{
     font-size: 1.7rem;
     margin-bottom: 40px;
 }
+
+/*--------------------------------------------*/
+
 .sec4-contact{
     display: flex;
     align-items: center;
@@ -221,13 +224,23 @@ body{
     flex-wrap: wrap;
 }
 .sec4-contact i{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .icon-with-text{
     display: flex;
     align-items: center;
     gap: 5px;
     cursor: pointer;
+}
+
+.sec4-contact a{
+    color:white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.sec4-contact a:hover{
+    color: #ecd24d;
+    scale: 1.1;
 }
 
 /*----------------------------------------------------*/
